@@ -23,9 +23,11 @@ This project is responsible for storing models in a C# server with a MongoDB dat
 ## Run:
 1. clone the project
 2. enter the `model-insertion` directory and run the command
-3. run: `npm start`
-4. enter the `databaseSaveServer` directory
-5. enter the solution and run the only project in it
+3. run: `npm install --legacy-peer-deps`
+4. run: `npm audit`
+5. run: `npm start`
+6. enter the `databaseSaveServer` directory
+7. enter the solution and run the only project in it
 
 # UI examples:
 ![Input page](input_page.png)
