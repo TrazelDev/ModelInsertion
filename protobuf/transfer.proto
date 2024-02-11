@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message modelInsertMsg {
+  string modelName = 1;
+  string modelFamilyName = 2;
+  int32 maxRange = 3;
+  int32 spinSpeed = 4;
+  int32 frequency = 5;
+}

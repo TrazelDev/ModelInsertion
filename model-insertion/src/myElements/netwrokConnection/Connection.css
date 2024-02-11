@@ -1,0 +1,15 @@
+.submit {
+    border-radius: 0;
+    border: none;
+    cursor: pointer; 
+    margin-bottom: 0px;
+    font-size: 32px; 
+    padding: 16px 18px; /* button size*/
+  }
+
+.con {
+  display: flex; /* centering content */
+  justify-content: center; /* centering horizontally */
+  align-items: center; /* centering vertically */
+  height: 100vh;
+}

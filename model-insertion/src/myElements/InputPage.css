@@ -1,0 +1,12 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.InputPage h1 {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centring the element */
+    margin-bottom: 0px;
+}
